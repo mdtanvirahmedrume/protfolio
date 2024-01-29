@@ -28,5 +28,10 @@ int main(){
     // Concatination
     printf("*********Concatination*********\n");
     printf("My name is: %s\n", strcat(s1,s2));
+    
+    // Copy
+    printf("*********Copy*********\n");
 
+    strcpy(s3, s2);
+    printf("Copy: %s\n", s3);
 }
